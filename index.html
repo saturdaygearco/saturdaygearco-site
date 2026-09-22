@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Saturday Gear Co. | Gear for Better Weekends</title>
-  <meta name="description" content="Straightforward guides, comparisons, and gear picks for your garage, yard, pool, grill, and weekends.">
+  <title>Saturday Gear Co. | Better Gear. Better Weekends.</title>
+  <meta name="description" content="Straightforward gear guides, comparisons and recommendations for the garage, yard, pool, grill and weekend.">
 
   <style>
     * {
@@ -14,236 +14,408 @@
       padding: 0;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: Arial, Helvetica, sans-serif;
       background: #f4f1e8;
-      color: #1e211d;
+      color: #1d211d;
       line-height: 1.6;
     }
 
     a {
-      text-decoration: none;
       color: inherit;
+      text-decoration: none;
     }
 
+    /* HEADER */
+
     header {
-      background: #171a17;
-      color: white;
-      padding: 20px 7%;
+      background: #151815;
+      color: #fff;
+      padding: 18px 7%;
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid #30352f;
     }
 
-    .logo {
-      font-size: 24px;
-      font-weight: 800;
-      letter-spacing: 1px;
+    .brand {
+      font-size: 23px;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      white-space: nowrap;
+    }
+
+    .brand span {
+      color: #d5b467;
     }
 
     nav {
       display: flex;
       gap: 24px;
+      align-items: center;
       font-size: 14px;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     nav a:hover {
-      color: #d6b56b;
+      color: #d5b467;
     }
+
+    /* HERO */
 
     .hero {
-      background: #252a24;
-      color: white;
-      padding: 100px 7%;
-      min-height: 500px;
+      min-height: 590px;
+      background:
+        linear-gradient(90deg, rgba(19,22,19,.97), rgba(29,34,28,.88));
+      color: #fff;
       display: flex;
       align-items: center;
+      padding: 90px 7%;
     }
 
-    .hero-content {
-      max-width: 760px;
+    .hero-inner {
+      max-width: 850px;
     }
 
     .eyebrow {
-      color: #d6b56b;
-      font-size: 14px;
-      font-weight: 800;
-      letter-spacing: 2px;
+      color: #d5b467;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 2.5px;
       text-transform: uppercase;
-      margin-bottom: 15px;
+      margin-bottom: 18px;
     }
 
     h1 {
-      font-size: clamp(42px, 7vw, 76px);
-      line-height: 1.02;
-      margin-bottom: 24px;
+      font-size: clamp(46px, 7vw, 82px);
+      line-height: .98;
+      letter-spacing: -2px;
+      margin-bottom: 25px;
+      max-width: 850px;
     }
 
-    .hero p {
+    .hero-text {
+      max-width: 680px;
       font-size: 20px;
-      max-width: 650px;
-      color: #d8dbd5;
+      color: #d6d9d4;
       margin-bottom: 32px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
     }
 
     .button {
       display: inline-block;
-      background: #d6b56b;
-      color: #171a17;
-      padding: 14px 24px;
-      font-weight: 800;
+      padding: 14px 23px;
       border-radius: 4px;
+      font-weight: 900;
+      font-size: 14px;
     }
 
+    .button-primary {
+      background: #d5b467;
+      color: #171a17;
+    }
+
+    .button-secondary {
+      border: 1px solid #73796f;
+      color: #fff;
+    }
+
+    /* TRUST STRIP */
+
+    .trust-strip {
+      background: #d5b467;
+      color: #171a17;
+      padding: 14px 7%;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    /* GENERAL */
+
     .section {
-      padding: 75px 7%;
       max-width: 1300px;
       margin: auto;
+      padding: 80px 7%;
     }
 
     .section-heading {
       margin-bottom: 35px;
     }
 
+    .section-heading .small-title {
+      color: #8a713c;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 7px;
+    }
+
     .section-heading h2 {
-      font-size: 36px;
-      margin-bottom: 8px;
+      font-size: clamp(32px, 4vw, 44px);
+      line-height: 1.1;
+      margin-bottom: 10px;
     }
 
     .section-heading p {
-      color: #62675f;
+      color: #666b63;
+      max-width: 700px;
     }
+
+    /* CATEGORIES */
 
     .categories {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      gap: 18px;
     }
 
     .category {
-      background: white;
-      padding: 32px;
-      min-height: 190px;
-      border: 1px solid #dedbd2;
-      border-radius: 6px;
-      transition: transform .2s ease;
+      background: #fff;
+      border: 1px solid #ddd9cf;
+      border-radius: 7px;
+      padding: 31px;
+      min-height: 210px;
+      transition: .2s ease;
     }
 
     .category:hover {
       transform: translateY(-4px);
+      border-color: #b99a55;
+    }
+
+    .category-number {
+      font-size: 12px;
+      font-weight: 900;
+      color: #a08449;
+      margin-bottom: 24px;
     }
 
     .category h3 {
-      font-size: 23px;
+      font-size: 22px;
       margin-bottom: 10px;
     }
 
     .category p {
-      color: #686c65;
+      color: #686d65;
+      font-size: 15px;
     }
 
-    .mission {
-      background: #e3ded0;
+    /* PHILOSOPHY */
+
+    .philosophy {
+      background: #1d211d;
+      color: white;
     }
 
-    .mission-inner {
-      max-width: 900px;
+    .philosophy-inner {
+      max-width: 1100px;
       margin: auto;
-      padding: 75px 7%;
-      text-align: center;
+      padding: 85px 7%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 70px;
+      align-items: center;
     }
 
-    .mission h2 {
-      font-size: 38px;
-      margin-bottom: 20px;
+    .philosophy h2 {
+      font-size: clamp(34px, 4vw, 48px);
+      line-height: 1.08;
     }
 
-    .mission p {
-      font-size: 18px;
-      color: #555a52;
+    .philosophy p {
+      color: #c7cbc4;
+      font-size: 17px;
+      margin-bottom: 15px;
     }
 
-    .articles {
+    /* GUIDES */
+
+    .guides {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
     }
 
-    .article {
-      background: white;
-      border: 1px solid #dedbd2;
-      border-radius: 6px;
+    .guide-card {
+      background: #fff;
+      border: 1px solid #ddd9cf;
+      border-radius: 7px;
       overflow: hidden;
     }
 
-    .article-image {
-      height: 170px;
-      background: #343a32;
+    .guide-image {
+      height: 180px;
+      background: #30362f;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #d6b56b;
-      font-weight: 800;
-      letter-spacing: 1px;
+      color: #d5b467;
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing: 2px;
     }
 
-    .article-content {
+    .guide-content {
       padding: 25px;
     }
 
-    .article-content span {
+    .guide-label {
+      color: #8a713c;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .guide-content h3 {
+      font-size: 21px;
+      line-height: 1.25;
+      margin: 8px 0 10px;
+    }
+
+    .guide-content p {
+      color: #686d65;
+      font-size: 14px;
+    }
+
+    .coming-soon {
+      display: inline-block;
+      margin-top: 18px;
       font-size: 12px;
-      font-weight: 800;
+      font-weight: 900;
       color: #8a713c;
       text-transform: uppercase;
     }
 
-    .article-content h3 {
-      margin: 8px 0;
-      font-size: 21px;
+    /* CONTACT */
+
+    .contact {
+      background: #ded8c9;
+      text-align: center;
+      padding: 75px 7%;
     }
+
+    .contact-inner {
+      max-width: 720px;
+      margin: auto;
+    }
+
+    .contact h2 {
+      font-size: clamp(32px, 4vw, 44px);
+      margin-bottom: 15px;
+    }
+
+    .contact p {
+      color: #5d625b;
+      margin-bottom: 25px;
+    }
+
+    .contact a {
+      display: inline-block;
+      background: #1d211d;
+      color: #fff;
+      padding: 14px 24px;
+      border-radius: 4px;
+      font-weight: 800;
+    }
+
+    /* FOOTER */
 
     footer {
-      background: #171a17;
-      color: #aaa;
-      padding: 45px 7%;
-      margin-top: 40px;
+      background: #141714;
+      color: #92978f;
+      padding: 50px 7%;
     }
 
-    footer strong {
-      color: white;
-      display: block;
-      font-size: 20px;
+    .footer-inner {
+      max-width: 1300px;
+      margin: auto;
+    }
+
+    .footer-brand {
+      color: #fff;
+      font-size: 21px;
+      font-weight: 900;
+      letter-spacing: 1px;
       margin-bottom: 8px;
     }
 
-    .disclosure {
-      margin-top: 20px;
-      font-size: 12px;
-      max-width: 800px;
-      color: #777;
+    .footer-tagline {
+      margin-bottom: 25px;
     }
 
-    @media (max-width: 800px) {
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: #c0c4bd;
+      margin-bottom: 25px;
+    }
+
+    .disclosure {
+      max-width: 850px;
+      font-size: 12px;
+      color: #747970;
+      border-top: 1px solid #30342f;
+      padding-top: 22px;
+    }
+
+    .copyright {
+      font-size: 12px;
+      margin-top: 20px;
+      color: #666b64;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 850px) {
       header {
-        align-items: flex-start;
+        position: relative;
         flex-direction: column;
+        align-items: flex-start;
       }
 
       nav {
         flex-wrap: wrap;
-      }
-
-      .categories,
-      .articles {
-        grid-template-columns: 1fr;
+        gap: 13px 18px;
       }
 
       .hero {
-        padding-top: 70px;
-        padding-bottom: 70px;
+        min-height: auto;
+        padding-top: 75px;
+        padding-bottom: 75px;
+      }
+
+      h1 {
+        letter-spacing: -1px;
+      }
+
+      .categories,
+      .guides,
+      .philosophy-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .philosophy-inner {
+        gap: 30px;
       }
     }
   </style>
@@ -252,150 +424,252 @@
 <body>
 
 <header>
-  <div class="logo">SATURDAY GEAR CO.</div>
+  <div class="brand">SATURDAY <span>GEAR</span> CO.</div>
 
   <nav>
     <a href="#garage">Garage</a>
     <a href="#yard">Yard</a>
     <a href="#pool">Pool</a>
-    <a href="#outdoor">Outdoor</a>
-    <a href="#guides">Gear Guides</a>
+    <a href="#cooking">Cooking</a>
+    <a href="#weekend">Weekend Gear</a>
+    <a href="#guides">Guides</a>
   </nav>
 </header>
 
-<section class="hero">
-  <div class="hero-content">
-    <div class="eyebrow">Work less on the weekend. Enjoy it more.</div>
+<main>
 
-    <h1>Gear for the stuff you'd rather be doing.</h1>
+  <section class="hero">
+    <div class="hero-inner">
 
-    <p>
-      Straightforward gear guides for the garage, yard, pool,
-      grill and everything that makes Saturday worth waiting for.
-    </p>
+      <div class="eyebrow">Saturday starts here</div>
 
-    <a class="button" href="#guides">Explore Gear Guides</a>
-  </div>
-</section>
+      <h1>Better gear.<br>Better weekends.</h1>
 
-<section class="section">
-  <div class="section-heading">
-    <h2>Pick Your Territory</h2>
-    <p>No fluff. Just useful gear, comparisons and buying guides.</p>
-  </div>
-
-  <div class="categories">
-
-    <div class="category" id="garage">
-      <h3>Garage & Tools</h3>
-      <p>
-        Tools, shop equipment, storage and the stuff that makes
-        working in the garage considerably less painful.
+      <p class="hero-text">
+        Straightforward buying guides for the garage, yard, pool,
+        grill and everywhere else you'd rather spend your Saturday.
       </p>
-    </div>
 
-    <div class="category" id="yard">
-      <h3>Lawn & Power Equipment</h3>
-      <p>
-        Mowers, pressure washers, generators and equipment
-        built to get the job finished faster.
-      </p>
-    </div>
-
-    <div class="category" id="pool">
-      <h3>Pool & Backyard</h3>
-      <p>
-        Pool robots, outdoor equipment and backyard gear
-        that gives you more time in the chair and less time maintaining it.
-      </p>
-    </div>
-
-    <div class="category" id="outdoor">
-      <h3>Grills & Outdoor Cooking</h3>
-      <p>
-        Grills, smokers, griddles, coolers and the gear responsible
-        for keeping Saturday properly fed.
-      </p>
-    </div>
-
-    <div class="category">
-      <h3>Truck & Weekend Gear</h3>
-      <p>
-        Useful equipment for the truck, campsite, boat ramp
-        and wherever the weekend takes you.
-      </p>
-    </div>
-
-    <div class="category">
-      <h3>Best Gear</h3>
-      <p>
-        Side-by-side comparisons and buying guides designed
-        to help you spend money once instead of twice.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<section class="mission">
-  <div class="mission-inner">
-    <h2>Buying gear shouldn't require a research degree.</h2>
-
-    <p>
-      Saturday Gear Co. cuts through the marketing noise to help regular
-      people figure out what equipment is worth buying, what isn't,
-      and what makes sense for the way they'll actually use it.
-    </p>
-  </div>
-</section>
-
-<section class="section" id="guides">
-  <div class="section-heading">
-    <h2>From the Gear Guides</h2>
-    <p>Our first guides are being built now.</p>
-  </div>
-
-  <div class="articles">
-
-    <div class="article">
-      <div class="article-image">POOL</div>
-      <div class="article-content">
-        <span>Buying Guide</span>
-        <h3>Best Robotic Pool Cleaners</h3>
-        <p>Which features matter and which ones are mostly marketing.</p>
+      <div class="buttons">
+        <a class="button button-primary" href="#guides">Browse Gear Guides</a>
+        <a class="button button-secondary" href="#categories">Explore Categories</a>
       </div>
-    </div>
 
-    <div class="article">
-      <div class="article-image">GARAGE</div>
-      <div class="article-content">
-        <span>Gear Guide</span>
-        <h3>Garage Gear Worth Buying</h3>
-        <p>Equipment that actually earns the space it takes up.</p>
-      </div>
     </div>
+  </section>
 
-    <div class="article">
-      <div class="article-image">POWER</div>
-      <div class="article-content">
-        <span>Buying Guide</span>
-        <h3>Choosing the Right Generator</h3>
-        <p>Enough power for what you need without paying for what you don't.</p>
-      </div>
-    </div>
-
+  <div class="trust-strip">
+    Useful gear • Straight answers • No marketing nonsense
   </div>
-</section>
+
+  <section class="section" id="categories">
+
+    <div class="section-heading">
+      <div class="small-title">The good stuff</div>
+      <h2>What are you working on?</h2>
+      <p>
+        Find gear based on what you're actually trying to get done—or avoid doing all weekend.
+      </p>
+    </div>
+
+    <div class="categories">
+
+      <div class="category" id="garage">
+        <div class="category-number">01</div>
+        <h3>Garage & Tools</h3>
+        <p>
+          Tools, storage, shop equipment and upgrades that make the garage
+          a better place to spend a Saturday.
+        </p>
+      </div>
+
+      <div class="category" id="yard">
+        <div class="category-number">02</div>
+        <h3>Lawn & Power Equipment</h3>
+        <p>
+          Mowers, pressure washers, generators and equipment that gets
+          the work finished before the weekend disappears.
+        </p>
+      </div>
+
+      <div class="category" id="pool">
+        <div class="category-number">03</div>
+        <h3>Pool & Backyard</h3>
+        <p>
+          Pool robots, backyard equipment and gear designed to reduce
+          maintenance and increase chair time.
+        </p>
+      </div>
+
+      <div class="category" id="cooking">
+        <div class="category-number">04</div>
+        <h3>Grills & Outdoor Cooking</h3>
+        <p>
+          Grills, smokers, griddles, coolers and everything required
+          to keep Saturday properly fed.
+        </p>
+      </div>
+
+      <div class="category" id="weekend">
+        <div class="category-number">05</div>
+        <h3>Truck & Weekend Gear</h3>
+        <p>
+          Useful gear for the truck, campsite, boat ramp, tailgate
+          and wherever Saturday takes you.
+        </p>
+      </div>
+
+      <div class="category">
+        <div class="category-number">06</div>
+        <h3>Best Gear</h3>
+        <p>
+          Side-by-side comparisons designed to help you buy the right
+          equipment the first time.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="philosophy">
+
+    <div class="philosophy-inner">
+
+      <div>
+        <div class="eyebrow">How we look at gear</div>
+        <h2>Buying gear shouldn't require a research degree.</h2>
+      </div>
+
+      <div>
+        <p>
+          Specs matter. So does price. But neither tells you whether something
+          actually makes sense for the way you're going to use it.
+        </p>
+
+        <p>
+          Saturday Gear Co. sorts through the noise, compares the details that
+          matter and helps you figure out where your money is actually worth spending.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section" id="guides">
+
+    <div class="section-heading">
+      <div class="small-title">Gear Guides</div>
+      <h2>Start here.</h2>
+      <p>
+        Detailed comparisons and buying guides are being added as Saturday Gear Co. grows.
+      </p>
+    </div>
+
+    <div class="guides">
+
+      <article class="guide-card">
+        <div class="guide-image">POOL & BACKYARD</div>
+
+        <div class="guide-content">
+          <div class="guide-label">Buying Guide</div>
+          <h3>Best Robotic Pool Cleaners</h3>
+          <p>
+            What actually matters when comparing cordless pool robots,
+            navigation systems, battery life and cleaning coverage.
+          </p>
+          <span class="coming-soon">Guide coming soon</span>
+        </div>
+      </article>
+
+      <article class="guide-card">
+        <div class="guide-image">GARAGE & TOOLS</div>
+
+        <div class="guide-content">
+          <div class="guide-label">Gear Guide</div>
+          <h3>Garage Gear Worth Buying</h3>
+          <p>
+            Useful upgrades and equipment that actually earn the space
+            they take up in your garage.
+          </p>
+          <span class="coming-soon">Guide coming soon</span>
+        </div>
+      </article>
+
+      <article class="guide-card">
+        <div class="guide-image">POWER EQUIPMENT</div>
+
+        <div class="guide-content">
+          <div class="guide-label">Buying Guide</div>
+          <h3>How Much Generator Do You Actually Need?</h3>
+          <p>
+            A practical look at wattage, startup loads and choosing enough
+            generator without paying for capacity you'll never use.
+          </p>
+          <span class="coming-soon">Guide coming soon</span>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+
+  <section class="contact">
+
+    <div class="contact-inner">
+
+      <div class="small-title">Saturday Gear Co.</div>
+
+      <h2>Got a gear question?</h2>
+
+      <p>
+        Product suggestions, comparison requests and general questions
+        can be sent directly to the Saturday Gear Co. team.
+      </p>
+
+      <a href="mailto:contact@saturdaygearco.com">
+        contact@saturdaygearco.com
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
 
 <footer>
-  <strong>Saturday Gear Co.</strong>
 
-  <p>Gear for the stuff you'd rather be doing.</p>
+  <div class="footer-inner">
 
-  <div class="disclosure">
-    Saturday Gear Co. may earn commissions when readers purchase products
-    through links on this site. This does not increase the price you pay.
+    <div class="footer-brand">SATURDAY GEAR CO.</div>
+
+    <div class="footer-tagline">
+      Better gear. Better weekends.
+    </div>
+
+    <div class="footer-links">
+      <a href="#garage">Garage</a>
+      <a href="#yard">Lawn</a>
+      <a href="#pool">Pool</a>
+      <a href="#cooking">Outdoor Cooking</a>
+      <a href="#weekend">Weekend Gear</a>
+      <a href="mailto:contact@saturdaygearco.com">Contact</a>
+    </div>
+
+    <div class="disclosure">
+      <strong>Affiliate Disclosure:</strong>
+      Saturday Gear Co. may earn a commission when readers purchase products
+      through links on this website. This does not increase the price you pay.
+      Product recommendations and comparisons are intended to help readers
+      make informed purchasing decisions.
+    </div>
+
+    <div class="copyright">
+      © 2026 Saturday Gear Co. All rights reserved.
+    </div>
+
   </div>
+
 </footer>
 
 </body>
