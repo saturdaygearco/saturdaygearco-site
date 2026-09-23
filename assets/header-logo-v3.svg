@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 255" role="img" aria-labelledby="t"><title id="t">Saturday Gear Co.</title>
+<circle cx="340" cy="58" r="54" fill="#F4B82F"/>
+<!-- all-white mountain range for dark header visibility -->
+<path d="M112 121 205 76l35 17 101-82 72 67 35-19 112 62-66-15-45-27-37 23-71-65-86 68-48-25-99 41z" fill="#fff"/>
+<!-- white peak details, no dark fills -->
+<path d="M245 96 341 22l70 65-19 10-51-46-77 61z" fill="#fff"/>
+<path d="m307 109 34-39 35 38-20-7-15-18-14 17z" fill="#fff"/>
+<text x="340" y="184" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="78" font-weight="900" letter-spacing="-2" fill="#fff">SATURDAY</text>
+<!-- side bars stop well before GEAR CO. -->
+<line x1="100" y1="226" x2="205" y2="226" stroke="#F4B82F" stroke-width="9"/>
+<text x="340" y="240" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="48" font-weight="900" letter-spacing="5" fill="#F4B82F">GEAR CO.</text>
+<line x1="478" y1="226" x2="580" y2="226" stroke="#F4B82F" stroke-width="9"/>
+</svg>
