@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" role="img" aria-labelledby="t d"><title id="t">Saturday Gear Co.</title><desc id="d">Gold sun over black mountain peaks above Saturday Gear Co.</desc>
+<circle cx="360" cy="66" r="58" fill="#d09a2d"/>
+<path d="M105 116 220 60l35 18 102-67 76 70 38-18 46 27 42-24 86 54H516l-43-29-42 22-39-22-37 26-101-19-37 28-33-18-79 38z" fill="#151815"/>
+<path d="m256 78 101-67 76 70-18 8-59-54-78 54z" fill="#f4f1e8"/>
+<text x="360" y="162" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="2" fill="#151815">SATURDAY</text>
+<line x1="110" y1="188" x2="252" y2="188" stroke="#d09a2d" stroke-width="7"/>
+<text x="360" y="202" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="40" font-weight="900" letter-spacing="7" fill="#d09a2d">GEAR CO.</text>
+<line x1="477" y1="188" x2="610" y2="188" stroke="#d09a2d" stroke-width="7"/>
+</svg>
