@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" role="img" aria-labelledby="t"><title id="t">Saturday Gear Co.</title>
-<circle cx="360" cy="66" r="58" fill="#d5b467"/>
-<path d="M105 116 220 60l35 18 102-67 76 70 38-18 46 27 42-24 86 54H516l-43-29-42 22-39-22-37 26-101-19-37 28-33-18-79 38z" fill="#f4f1e8"/>
-<path d="m256 78 101-67 76 70-18 8-59-54-78 54z" fill="#151815"/>
-<text x="360" y="162" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="2" fill="#f4f1e8">SATURDAY</text>
-<line x1="110" y1="188" x2="252" y2="188" stroke="#d5b467" stroke-width="7"/>
-<text x="360" y="202" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="40" font-weight="900" letter-spacing="7" fill="#d5b467">GEAR CO.</text>
-<line x1="477" y1="188" x2="610" y2="188" stroke="#d5b467" stroke-width="7"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 190" role="img" aria-labelledby="title"><title id="title">Saturday Gear Co.</title>
+<circle cx="310" cy="48" r="43" fill="#d5a22f"/>
+<path d="M78 102 190 52l38 18 82-60 73 62 39-18 116 51h-69l-49-23-39 22-70-67-76 57-47-17-61 28z" fill="#fff"/>
+<path d="m228 70 82-60 73 62-18 8-55-47-63 47z" fill="#171a17"/>
+<text x="310" y="145" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="58" font-weight="900" letter-spacing="1" fill="#fff">SATURDAY</text>
+<line x1="95" y1="169" x2="218" y2="169" stroke="#d5a22f" stroke-width="7"/>
+<text x="310" y="181" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="35" font-weight="900" letter-spacing="5" fill="#d5a22f">GEAR CO.</text>
+<line x1="408" y1="169" x2="525" y2="169" stroke="#d5a22f" stroke-width="7"/>
 </svg>
