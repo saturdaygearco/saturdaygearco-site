@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 230" role="img" aria-labelledby="title"><title id="title">Saturday Gear Co.</title>
-<circle cx="310" cy="57" r="52" fill="#f0b532"/>
-<!-- crisp mountain range -->
-<path d="M74 125 175 72l40 20 96-80 78 69 37-21 121 67-76-19-44-24-39 23-77-67-83 67-50-27-104 45z" fill="#fff"/>
-<path d="M215 92 311 12l78 69-21 12-57-50-75 63z" fill="#151815"/>
-<path d="m281 104 30-35 35 38-20-8-15-17-13 15z" fill="#fff"/>
-<!-- strong wordmark -->
-<text x="310" y="171" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="67" font-weight="900" letter-spacing="-1" fill="#fff" stroke="#fff" stroke-width="1.5">SATURDAY</text>
-<line x1="76" y1="207" x2="210" y2="207" stroke="#f0b532" stroke-width="9"/>
-<text x="310" y="219" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="42" font-weight="900" letter-spacing="4" fill="#f0b532">GEAR CO.</text>
-<line x1="430" y1="207" x2="552" y2="207" stroke="#f0b532" stroke-width="9"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" role="img" aria-labelledby="t"><title id="t">Saturday Gear Co.</title>
+<circle cx="360" cy="62" r="58" fill="#F0B52F"/>
+<!-- mountain silhouette like approved reference -->
+<path d="M92 132 210 73l43 21 108-84 83 76 43-22 141 72-91-22-49-27-43 25-84-76-93 72-52-28-124 52z" fill="#fff"/>
+<path d="M253 94 361 10l83 76-23 12-61-55-84 65z" fill="#111820"/>
+<path d="m326 111 34-40 40 43-23-9-17-20-15 18z" fill="#fff"/>
+<!-- oversized wordmark -->
+<text x="360" y="185" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="82" font-weight="900" letter-spacing="-2" fill="#fff">SATURDAY</text>
+<line x1="92" y1="225" x2="242" y2="225" stroke="#F0B52F" stroke-width="10" stroke-linecap="square"/>
+<text x="360" y="239" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="50" font-weight="900" letter-spacing="5" fill="#F0B52F">GEAR CO.</text>
+<line x1="487" y1="225" x2="628" y2="225" stroke="#F0B52F" stroke-width="10" stroke-linecap="square"/>
 </svg>
