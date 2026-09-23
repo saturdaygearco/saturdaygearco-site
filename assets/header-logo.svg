@@ -1,10 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 220" role="img" aria-labelledby="title"><title id="title">Saturday Gear Co.</title>
-<circle cx="325" cy="54" r="50" fill="#e2aa32"/>
-<path d="M72 120 178 67l45 20 104-78 78 72 38-19 135 62-92-15-43-21-39 23-78-72-88 68-47-20-119 33z" fill="#fff"/>
-<path d="m223 87 104-78 78 72-21 9-58-53-80 61z" fill="#151815"/>
-<path d="M276 106 326 61l44 46-26-9-18-20-18 17z" fill="#fff"/>
-<text x="325" y="166" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="70" font-weight="900" letter-spacing="1" fill="#fff">SATURDAY</text>
-<line x1="88" y1="198" x2="221" y2="198" stroke="#e2aa32" stroke-width="9"/>
-<text x="325" y="211" text-anchor="middle" font-family="Arial Black,Impact,Arial,sans-serif" font-size="43" font-weight="900" letter-spacing="5" fill="#e2aa32">GEAR CO.</text>
-<line x1="439" y1="198" x2="562" y2="198" stroke="#e2aa32" stroke-width="9"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 230" role="img" aria-labelledby="title"><title id="title">Saturday Gear Co.</title>
+<circle cx="310" cy="57" r="52" fill="#f0b532"/>
+<!-- crisp mountain range -->
+<path d="M74 125 175 72l40 20 96-80 78 69 37-21 121 67-76-19-44-24-39 23-77-67-83 67-50-27-104 45z" fill="#fff"/>
+<path d="M215 92 311 12l78 69-21 12-57-50-75 63z" fill="#151815"/>
+<path d="m281 104 30-35 35 38-20-8-15-17-13 15z" fill="#fff"/>
+<!-- strong wordmark -->
+<text x="310" y="171" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="67" font-weight="900" letter-spacing="-1" fill="#fff" stroke="#fff" stroke-width="1.5">SATURDAY</text>
+<line x1="76" y1="207" x2="210" y2="207" stroke="#f0b532" stroke-width="9"/>
+<text x="310" y="219" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="42" font-weight="900" letter-spacing="4" fill="#f0b532">GEAR CO.</text>
+<line x1="430" y1="207" x2="552" y2="207" stroke="#f0b532" stroke-width="9"/>
 </svg>
