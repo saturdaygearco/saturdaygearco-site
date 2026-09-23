@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saturdaygearco.com/sitemap.xml
