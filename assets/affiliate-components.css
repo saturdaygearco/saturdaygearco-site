@@ -1,0 +1,97 @@
+/* Saturday Gear Co. affiliate conversion components
+   Reusable, link-agnostic styles so product recommendations can be added
+   consistently once approved affiliate URLs are available. */
+
+.product-pick {
+  background: #fff;
+  border: 1px solid #d8d3c7;
+  border-left: 5px solid #d5b467;
+  border-radius: 6px;
+  margin: 28px 0;
+  padding: 24px;
+}
+
+.product-pick__label {
+  color: #75602f;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+}
+
+.product-pick__title {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin: 0 0 10px;
+}
+
+.product-pick__summary { margin: 0 0 16px; }
+
+.product-pick__meta {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  margin: 16px 0;
+}
+
+.product-pick__meta div {
+  background: #f4f1e8;
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+
+.product-pick__cta {
+  background: #242924;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 800;
+  padding: 11px 17px;
+  text-decoration: none;
+}
+
+.product-pick__cta:hover,
+.product-pick__cta:focus-visible {
+  background: #343b34;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.product-pick__cta:focus-visible {
+  outline: 3px solid #d5b467;
+  outline-offset: 3px;
+}
+
+.affiliate-note {
+  color: #555;
+  font-size: .88rem;
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+
+.comparison-table {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.comparison-table table {
+  border-collapse: collapse;
+  min-width: 620px;
+  width: 100%;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.comparison-table th { background: #242924; color: #fff; }
+
+@media (max-width: 520px) {
+  .product-pick { padding: 18px; }
+  .product-pick__cta { box-sizing: border-box; text-align: center; width: 100%; }
+}
