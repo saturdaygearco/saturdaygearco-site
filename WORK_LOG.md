@@ -14,6 +14,7 @@ Times below are Central Daylight Time (America/Chicago). An entry records a comp
 | 9:48 a.m. | Published | Added an adjustable runtime calculator to the portable power-station guide. Checked that 1,000 watt-hours at a 200-watt load shows five theoretical hours and four planning hours at an 80% factor. | Helps a reader estimate battery runtime for their own equipment while showing that real use can differ. The updated page was confirmed live. |
 | 9:49 a.m. | Published | Added manufacturer-backed examples of a mid-size hard cooler, a smaller wheeled cooler, and a large wheeled cooler. Checked that the updated page was live. | Gives readers concrete dimensions, weight and portability questions to compare before buying. These are research examples, not tested picks or affiliate links. |
 | About 9:50 a.m. | Checked | Rechecked all 26 HTML pages for local file links and structured-data syntax. The sitemap contains 25 URLs. No local errors were found; GitHub `main` was clean at `fdc6f30`. | Confirms the new guides are linked and the repository contains the published changes. It is not a full external-link or real-device usability test. |
+| About 9:52 a.m. | Published | Created this running work log and instructed both scheduled work sessions to append their completed work to it. | Gives you one place to check what was done, when it was done, and why. Entries appear after a session publishes them. |
 
 ## Work still in progress
 
