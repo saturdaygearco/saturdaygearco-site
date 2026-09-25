@@ -94,4 +94,10 @@
 @media (max-width: 520px) {
   .product-pick { padding: 18px; }
   .product-pick__cta { box-sizing: border-box; text-align: center; width: 100%; }
+  .comparison-table table { min-width: 0; }
+  .comparison-table th, .comparison-table td { padding: 9px; font-size: .86rem; overflow-wrap: anywhere; }
 }
+
+.beer-rating { background:#f4f1e8; border-radius:4px; padding:10px 12px; margin:14px 0; }
+.beer-rating strong { color:#594820; }
+.product-pick { overflow-wrap:anywhere; }
