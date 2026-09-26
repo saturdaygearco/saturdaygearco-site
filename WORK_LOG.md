@@ -19,12 +19,22 @@ Times below are Central Daylight Time (America/Chicago). An entry records a comp
 | 10:53 a.m. | Published | Added “Can a Power Station Run a Refrigerator Overnight?” and linked it from Weekend Gear, the guides index, and the existing generator and power-station guides. Clarified the CDC's generator placement rule in the generator guide. | Helps a reader check both compressor startup and battery runtime instead of buying by battery size alone. The guide gives a worked example without claiming a guaranteed result or product testing. |
 | 10:54 a.m. | Checked | Confirmed the new guide served successfully on the live website. Rechecked 27 HTML pages, 26 sitemap URLs, local links, canonical addresses and article-data syntax; found no local errors. | Confirms this session's new article and navigation are published, while leaving real-device usability and external-link checks as separate work. |
 
+## Saturday, September 26, 2026
+
+| Time | Status | What happened | Why it matters |
+| --- | --- | --- | --- |
+| About 9:03–9:06 a.m. | Checked | Opened the latest GitHub version and checked the live site before editing. The homepage, robots file and sitemap responded successfully. Search Console showed 26 submitted sitemap pages, zero indexed pages, no sitemap errors or warnings, and zero clicks or impressions in its available data. | This is today's measured starting point. It shows Google can receive the sitemap without errors, but it does not yet show search visibility. The site is still early, so pages should not be rewritten simply because indexing is pending. |
+| About 9:06–9:08 a.m. | Published | Removed a repeated Blackstone recommendation from the grill guide, clarified affiliate disclosures, filled in missing article publication dates, improved the robotic pool-cleaner page's social-sharing information, and refreshed guide dates in the sitemap. | The buying path is less repetitive, affiliate wording is clearer, and search engines and social sites receive more complete information about the articles. No new or unverified affiliate destination was added. |
+| About 9:08–9:10 a.m. | Published | Compared the website's analytics tag with the owner's latest Google Analytics screen and found that they used different measurement IDs. Added the newer ID, `G-E3QZQ8JB1L`, to all 27 HTML pages while preserving the existing ID, `G-CKQJNZ5NWP`. Confirmed the newer ID is now present on the live homepage. | New visits can now be sent to the Google Analytics property shown by the owner. Keeping the earlier ID avoids cutting off any history that may exist there. Analytics cannot recreate visits from before this fix. |
+| About 9:10–9:11 a.m. | Checked | Rechecked all 27 HTML pages for broken local links, page titles, descriptions, canonical addresses, main headings, article-data syntax and affiliate-link labels. No local errors were found. Confirmed the pool and grill changes were live. | This catches common problems that can confuse readers or search engines and verifies that the published version matches the intended changes. It is not a substitute for testing every outside website or every physical phone model. |
+
 ## Work still in progress
 
-- Research product-specific recommendations and verified affiliate destinations for the highest-intent guides. Owner-only affiliate account steps can wait.
-- Continue the generator and power-station cluster, cooler content, internal links, and production checks.
+- Research product-specific recommendations and verified affiliate destinations for the highest-intent guides. Use exact-product images only when they are owner-supplied or otherwise legally authorized and verified as the correct model.
+- Continue the generator and power-station cluster, cooler content, internal links, long-tail buying guides, and production checks.
 - Use Search Console query and page data when impressions appear. Do not rewrite pages only because indexing is still pending.
+- Google Analytics reporting still requires the owner to sign in or connect the Google account that can view the property before reports can be read here. This does not block further website work; the website-side measurement tag is now corrected.
 
 ## Scheduling and limits
 
-The Friday continuation session completed. Daily development sessions are scheduled starting Saturday morning. Work happens during these sessions and active conversations; there is no process editing the site every minute between them. New sessions should append dated, plain-English entries with the actual completion time and distinguish published changes from checks or drafts.
+Work happens during scheduled sessions and active conversations; there is no process editing the site every minute between them. New sessions should append dated, plain-English entries with the actual completion time and distinguish published changes from checks or drafts.
