@@ -11,13 +11,13 @@ document.addEventListener('click', function (event) {
 
   const recommendation = link.closest('.product-pick, .buyer-card');
   const heading = recommendation && recommendation.querySelector('h3, h2');
-  const section = link.closest('.affiliate-recommendations, #buying-shortlist, .related');
+  const section = link.closest('.affiliate-recommendations, .top-recommendations, #buying-shortlist, .related');
   const productName = (link.dataset.product || (heading && heading.textContent) ||
     link.getAttribute('aria-label') || link.textContent || '').trim().slice(0, 100);
   const placement = link.dataset.placement || (section && (
-    section.id === 'buying-shortlist' ? 'buying_shortlist' :
-    section.classList.contains('affiliate-recommendations') ? 'quick_picks' : 'related'
-  )) || 'article_body';
+    section.id === 'buying-shortlist' ? 'comparison_section' :
+    section.classList.contains('affiliate-recommendations') || section.classList.contains('top-recommendations') ? 'top_recommendation' : 'article_product'
+  )) || 'article_product';
 
   window.gtag('event', 'affiliate_click', {
     page_path: window.location.pathname,
