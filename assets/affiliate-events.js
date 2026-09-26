@@ -9,7 +9,7 @@ document.addEventListener('click', function (event) {
   if (!/(^|\.)(amazon\.com|amzn\.to)$/.test(destination.hostname)) return;
   if (typeof window.gtag !== 'function') return;
 
-  const recommendation = link.closest('.product-pick, .buyer-card');
+  const recommendation = link.closest('.product-pick, .buyer-card, .top-recommendations .card');
   const heading = recommendation && recommendation.querySelector('h3, h2');
   const section = link.closest('.affiliate-recommendations, .top-recommendations, #buying-shortlist, .related');
   const productName = (link.dataset.product || (heading && heading.textContent) ||
