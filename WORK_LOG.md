@@ -33,12 +33,22 @@ Times below are Central Daylight Time (America/Chicago). An entry records a comp
 | About 9:45–9:47 a.m. | Checked | Confirmed both new articles load on the live site and inspected the desktop presentation of the driveway guide. Checked 29 local HTML files for titles, descriptions, canonical URLs, one main heading, article-data syntax, internal link targets, affiliate labels and image alternative text; found no local errors. The sitemap lists 28 public URLs, excluding the 404 page. | The new content is published and linked. A real phone layout, external links and field performance still need separate checks; the local scan alone cannot prove them. |
 | About 9:47 a.m. | Published | Fixed the recovery links, logo and icon on the site's page-not-found screen so they point to the site root even when a missing URL is under a guide folder. | A visitor who reaches a missing page can return to a real category or the guide index instead of following another broken relative address. |
 
+## Sunday, September 27, 2026
+
+| Time | Status | What happened | Why it matters |
+| --- | --- | --- | --- |
+| About 9:19–9:23 a.m. | Checked | Reviewed the latest GitHub version and live Guides page before editing. Confirmed that owner-verified direct Amazon links and the three-beer ratings were already published, and that the site files use the single verified GA4 Measurement ID `G-CKQJNZ5NWP`. | Preserved work completed after the previous log entry and avoided introducing a second analytics tag or changing verified product links. |
+| About 9:20–9:22 a.m. | Checked | Search Console's seven-day summary through September 24 showed 1 search click, 2 impressions, 50% click-through rate and average position 13.67. The submitted sitemap report showed 28 pages, 0 indexed, and no errors or warnings. One visible query was “cooler size for camping” with 1 impression and no clicks. | These are the first small search signals, not proof of stable rankings. Search Console's summary and page breakdown currently differ, so avoid combining them into a precise page-level total. |
+| About 9:20–9:22 a.m. | Checked | GA4 property 555996068 reported 22 sessions and 16 active users for September 24–26. Its event report counted 21 `affiliate_click` events from 2 users and 0 key events. | The outbound-click event is reaching GA4, but clicks do not prove purchases or revenue and could include the owner's own checks. |
+| About 9:23–9:26 a.m. | Published | Added an owner-experience guide about Pool Day Simple Scoop and linked it from the Pool hub, Guides index and robotic pool-cleaner guide. It explains Nicholas's roughly 20,000-gallon pool routine, keeps his personal report distinct from measured testing, and states clearly that sanitizer and water testing are still needed. The Pool Day link is direct and non-affiliate. | Adds original pool-care experience to the site's strongest category while helping readers judge compatibility and avoid mistaking a short weekly dosing step for complete pool care. |
+| About 9:25–9:26 a.m. | Checked | Checked all 30 local HTML pages for titles, descriptions, one main heading, canonical addresses, local links and anchor targets, plus structured-data syntax. Checked that the sitemap parses and lists 29 public URLs. No local errors were found. | Catches common publishing mistakes. It does not establish that every outside link or mobile device works perfectly. |
+
 ## Work still in progress
 
 - Research product-specific recommendations and verified affiliate destinations for the highest-intent guides. Use exact-product images only when they are owner-supplied or otherwise legally authorized and verified as the correct model.
 - Continue the generator and power-station cluster, cooler content, internal links, long-tail buying guides, and production checks.
 - Use Search Console query and page data when impressions appear. Do not rewrite pages only because indexing is still pending.
-- GA4 reports are now accessible for property 555996068. Verify its web stream Measurement ID in GA4 Admin before removing either existing website tag. Register event-scoped custom dimensions for `product_name`, `link_placement`, `page_path` and `destination_url` if detailed affiliate-click breakdowns are wanted. The `affiliate_click` event name can still be counted without those definitions.
+- GA4 reports are accessible for property 555996068, and its verified stream is `G-CKQJNZ5NWP`; the extra site tag was removed in later Saturday work. Register event-scoped custom dimensions for `product_name`, `link_placement`, `page_path` and `destination_url` if detailed affiliate-click breakdowns are wanted. The `affiliate_click` event name is already countable.
 
 ## Scheduling and limits
 
