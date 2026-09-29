@@ -65,13 +65,14 @@ Times below are Central Daylight Time (America/Chicago). An entry records a comp
 | About 9:12–9:15 a.m. | Checked | GA4 property 555996068 showed 30 sessions, 24 active users, and 22 affiliate-click events from 3 users for September 25–28. Its registered custom fields showed one September 28 DEWALT DXPW3300-S click from the pressure-washer guide, with the recorded Amazon URL retaining `saturdaygearc-20`. | Confirms product-level affiliate-click reporting and the Associate tag on that event. It does not prove a purchase or identify the person who clicked. |
 | About 9:14–9:17 a.m. | Published | Added a focused “Shop Vac CFM vs. Water Lift” guide, linked it from Garage, Guides, and the existing shop-vac sizing guide, and added it to the sitemap. It explains airflow, sealed suction, peak horsepower, tank volume, and real buyer use cases using Shop-Vac, RIDGID, and Festool manufacturer information. | Answers a newly observed search question with a useful specification chart while leading interested readers to the existing product buying guide. No unverified product test or affiliate destination was added. |
 | About 9:16–9:17 a.m. | Checked | Rechecked all 32 HTML pages for titles, descriptions, canonicals, one main heading, analytics configuration, image descriptions, structured-data syntax, and local links. The 31-URL sitemap parsed successfully and no local errors were found. | Catches basic publishing mistakes. This is not a physical-phone visual test or a guarantee that outside websites will stay available. |
+| About 9:18–9:19 a.m. | Checked | Confirmed the new guide, its Garage link, and its sitemap entry were served on the live website. The guide returned HTTP 200 and its intended title. | Verifies that the new article and a main path to it reached production. |
 
 ## Work still in progress
 
 - Research product-specific recommendations and verified affiliate destinations for the highest-intent guides. Use exact-product images only when they are owner-supplied or otherwise legally authorized and verified as the correct model.
 - Continue the generator and power-station cluster, cooler content, internal links, long-tail buying guides, and production checks.
 - Use Search Console query and page data when impressions appear. Do not rewrite pages only because indexing is still pending.
-- GA4 reports are accessible for property 555996068, and its verified stream is `G-CKQJNZ5NWP`; the extra site tag was removed in later Saturday work. Register event-scoped custom dimensions for `product_name`, `link_placement`, `page_path` and `destination_url` if detailed affiliate-click breakdowns are wanted. The `affiliate_click` event name is already countable.
+- GA4 reports are accessible for property 555996068, and its verified stream is `G-CKQJNZ5NWP`; the extra site tag was removed in later Saturday work. Event-scoped custom dimensions for `product_name`, `link_placement`, `page_path` and `destination_url` are registered and reporting affiliate-click details. Continue checking them against actual sales data when available.
 
 ## Scheduling and limits
 
