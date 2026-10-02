@@ -123,6 +123,15 @@ Times below are Central Daylight Time (America/Chicago). An entry records a comp
 - Confirmed live new affiliate links exactly match the previously verified DEWALT, Westinghouse and YETI URLs and retain the tag, product name and top_recommendation placement. A controlled local execution of the unchanged tracking listener produced affiliate_click with product_name, link_placement, page_path and destination_url. No new Amazon test clicks were sent, and a new live GA4 event was not claimed.
 - Final local validation covered 39 HTML files, 868 local resource/link references, 28 Amazon link instances and 38 sitemap URLs with no detected errors. Branding-image alt text and local files are intact. No product images were added without verified usage rights. Narrow-phone visual QA and definitive Google-selected-canonical inspection remain unverified; no account or credential change is required.
 
+### October 2 drill/impact affiliate update
+
+- Added one early three-brand decision section after the direct answer and affiliate disclosure, preserving the educational guide. Compared use case, strengths, tradeoffs and battery-platform considerations for Milwaukee 3692-22CT, DEWALT DCK277D2 and RYOBI PCL1200K2. None of the kits is claimed as owner-tested.
+- Added the confirmed owner experience with Milwaukee 2656-20 and two supplied photographs. Kept that tool distinct from the 3650-20 included in 3692-22CT; no model or performance details were invented for the owner's other Milwaukee tools.
+- Verified DCK277D2 in the manufacturer's SBD catalog and the exact Amazon product title at ASIN B0C3PQHGR7. Added https://www.amazon.com/dp/B0C3PQHGR7?tag=saturdaygearc-20 with product_name and top_recommendation attributes.
+- Used Milwaukee's official 3692-22CT destination without affiliate parameters while Acme approval is pending.
+- Did not publish an Amazon Ryobi link. Candidate B0B1GKVJR6 shows a conflicting ONEAND title, although its brand field says RYOBI, and other candidates use Generic or fits-for wording. The exact manufacturer PCL1200K2 page is used as a non-affiliate reference instead. No similar kit or questionable bundle was substituted.
+- Preserved GA4, the affiliate listener, extensionless canonical, Article markup, Impact verification tag and existing internal links. Article modification date remains October 2; the sitemap already records that date.
+
 ## Work still in progress
 
 - Research product-specific recommendations and verified affiliate destinations for the highest-intent guides. Use exact-product images only when they are owner-supplied or otherwise legally authorized and verified as the correct model.
