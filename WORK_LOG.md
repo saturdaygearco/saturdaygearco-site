@@ -107,6 +107,17 @@ Times below are Central Daylight Time (America/Chicago). An entry records a comp
 | About 9:24–9:25 a.m. | Checked | Confirmed the new page and all four incoming links on the live site. The new page has its intended title, description, canonical address, one main heading, valid Article data and the verified `G-CKQJNZ5NWP` tag; the extra GA4 tag was absent. No horizontal overflow appeared at the available desktop width. The local 34-URL sitemap parsed and listed the new URL once. | Confirms that the article and reading paths reached production. A physical-phone visual test and live XML download were not completed. |
 | About 9:27 a.m. | Checked | The updated sitemap is in GitHub and the existing sitemap submission remains on record from October 1. No new sitemap submission through GSC Wizard was confirmed today because that connector returned `INVALID_ARGUMENT`. | Separates publishing the file from asking Google to fetch it again; no indexing change is claimed. |
 
+### October 2 targeted expansion session
+
+
+- Reviewed the current main branch and production homepage before editing. Retrieved September 24–October 1 Search Console query/page data through the new J.A.R.V.I.S. connection. Pressure-washer, generator, cooler and shop-vac sizing queries remain the measured discovery signals; the samples are too small to establish stable rankings.
+- Prepared four focused articles: pressure-washer PSI vs. GPM; what a 4500-watt-class generator can run; cooler ice retention; and drill vs. impact driver. Chose cooler retention to complement existing capacity and hard-vs-soft articles without duplicating the shop-vac CFM guide.
+- Added direct answers, practical comparison tables, primary-source references, Article/social metadata, extensionless canonicals and publication dates. Generator loads are explicitly illustrative, and fuel-specific iGen4500DFc ratings come from its manual. No new hands-on tests or measurements are claimed.
+- Reused three previously owner-verified affiliate destinations (DEWALT DXPW3300-S, Westinghouse iGen4500DFc and YETI Tundra 45), with explicit top_recommendation placement and product names. Existing product links and the tracking script are unchanged. No new product imagery or unverified cordless-tool affiliate link was added.
+- Added discovery cards to Guides, Yard, Weekend Gear and Garage; added contextual incoming links from eight related articles. Updated their Article modification dates and sitemap entries. The guide collection now lists 25 articles; the sitemap lists 38 public URLs.
+- Local validation passed across 39 HTML files: local resource/link references resolved, image alt text present, JSON-LD parsed, canonicals matched extensionless URLs, all 28 Amazon instances retained saturdaygearc-20, and only the intended GA4 ID was present. The extra HTML file is the intentionally non-indexed 404 page.
+- Production deployment, live browser review and live redirect checks are recorded below only after they have been completed.
+
 ## Work still in progress
 
 - Research product-specific recommendations and verified affiliate destinations for the highest-intent guides. Use exact-product images only when they are owner-supplied or otherwise legally authorized and verified as the correct model.
