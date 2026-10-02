@@ -142,3 +142,8 @@ Times below are Central Daylight Time (America/Chicago). An entry records a comp
 ## Scheduling and limits
 
 Work happens during scheduled sessions and active conversations; there is no process editing the site every minute between them. New sessions should append dated, plain-English entries with the actual completion time and distinguish published changes from checks or drafts.
+
+### October 2 — Ryobi owner confirmation and deployment QA
+- Owner confirmed the ONE+ Ryobi candidate. Amazon B0B1GKVJR6 item details explicitly identify model/manufacturer part PCL1200K2 and UPC 033287200122, matching the manufacturer. Added exact affiliate URL with saturdaygearc-20 and top_recommendation. The abbreviated ONEAND title and marketplace seller remain disclosed purchase checks; no seller authorization claim.
+- Initial article deployment and both WebP files returned HTTP 200 and matched committed bytes. Desktop showed no horizontal overflow. Narrow-screen visual emulation is unavailable in the browser interface; responsive CSS/source checks do not substitute for that test.
+- Existing event listener, GA4, Article schema, canonical and Impact tag remain unchanged. Local controlled listener test verified affiliate_click payload; GA4 Realtime receipt not verified.
