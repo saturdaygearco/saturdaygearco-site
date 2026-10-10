@@ -172,3 +172,12 @@ Work happens during scheduled sessions and active conversations; there is no pro
 | About 9:48 a.m. | Checked | Confirmed the corrected grill guide reached production. The stale sentence is gone, the new disclosure and October update label are visible, Article data reports October 4, and the canonical URL, main heading and verified GA4 tag remain intact. | Verifies that the correction deployed without disturbing the page's SEO or analytics setup. |
 | 9:49 a.m. | Published | Added this session's measured checks and targeted correction to the work log. | Provides an honest record of what changed during this session without implying work happened between sessions. |
 
+
+
+### October 10 — Approved garage redesign (Issue #1)
+
+- Implemented on `feat/garage-redesign`; production/main untouched. Charcoal/cream/gold workshop homepage, photographic category tiles, existing guide cards, shared category/article/navigation/footer identity. Genuine licensed stock and unchanged owner photographs; generated mockup is reference only.
+- Preserved all 39 page routes, 25 guide bodies, 31 affiliate links, SEO metadata, schema relationships/dates, GA4, affiliate event fields, robots, sitemap and verification marker. Displayed author name anonymized; legacy author URL retained per route-preservation requirement.
+- Regression audit passes. Browser audit passes all 78 desktop/mobile layouts, keyboard navigation, no-JavaScript navigation, DOM affiliate-event verification and automated WCAG A/AA checks. No missing assets, JS errors or overflow. Tables made keyboard accessible; contrast corrected.
+- Local Lighthouse: redesign desktop 100 performance; mobile 99 performance. Accessibility/best-practices/SEO 100 on both. Mobile LCP 2.18s, TBT 0ms, CLS 0; desktop LCP 0.78s, CLS 0. Invalid original mobile filmstrip score remains explicitly null. Live field performance and GA4 collection are post-deployment checks.
+- Review screenshots, reproducible checks and deployment/rollback instructions in `docs/REDESIGN_REVIEW.md`. Existing host/deployment configuration is not present in the repository. Deployment awaits the explicit owner approval required by Issue #1. No paid services or costs.

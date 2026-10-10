@@ -1,0 +1,21 @@
+{
+  "pages": 39,
+  "layouts": 78,
+  "overflow": [],
+  "accessibility": [],
+  "consoleErrors": [],
+  "failedAssets": [],
+  "analytics": {
+    "event": "affiliate_click",
+    "fields": [
+      "page_path",
+      "product_name",
+      "link_placement",
+      "destination_url",
+      "link_domain"
+    ],
+    "destinationPreserved": true
+  },
+  "keyboard": true,
+  "noJavaScript": true
+}

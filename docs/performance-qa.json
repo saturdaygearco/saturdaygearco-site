@@ -1,0 +1,102 @@
+{
+  "environment": "Local Lighthouse lab comparison; simulated throttling; analytics network blocked. Production Core Web Vitals remain a post-deployment check.",
+  "reports": [
+    {
+      "version": "baseline",
+      "device": "mobile",
+      "scores": {
+        "performance": null,
+        "accessibility": 95,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 750.954,
+        "largest-contentful-paint": 1530.954,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "total-byte-weight": 16984
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "metricErrors": {
+        "speed-index": "Chrome didn't collect any screenshots during the page load. Please make sure there is content visible on the page, and then try re-running Lighthouse. (NO_SCREENSHOTS)",
+        "screenshot-thumbnails": "Chrome didn't collect any screenshots during the page load. Please make sure there is content visible on the page, and then try re-running Lighthouse. (NO_SCREENSHOTS)",
+        "final-screenshot": "Chrome didn't collect any screenshots during the page load. Please make sure there is content visible on the page, and then try re-running Lighthouse. (NO_SCREENSHOTS)",
+        "server-response-time": "No navigations insights found",
+        "metrics": "Chrome didn't collect any screenshots during the page load. Please make sure there is content visible on the page, and then try re-running Lighthouse. (NO_SCREENSHOTS)"
+      },
+      "failedAudits": [
+        "color-contrast"
+      ]
+    },
+    {
+      "version": "baseline",
+      "device": "desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 200.55795,
+        "largest-contentful-paint": 430.55795,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 200.55795,
+        "total-byte-weight": 16984
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "metricErrors": {},
+      "failedAudits": [
+        "color-contrast"
+      ]
+    },
+    {
+      "version": "redesign",
+      "device": "desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 201.7581,
+        "largest-contentful-paint": 781.7581,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 212.22680499964915,
+        "total-byte-weight": 635304
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "metricErrors": {},
+      "failedAudits": []
+    },
+    {
+      "version": "redesign",
+      "device": "mobile",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 751.653,
+        "largest-contentful-paint": 2176.6530000000002,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 751.653,
+        "total-byte-weight": 539899
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "metricErrors": {},
+      "failedAudits": []
+    }
+  ]
+}
