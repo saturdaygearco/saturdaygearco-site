@@ -22,3 +22,11 @@ Lead with the shop-vac buying guide because it has specific buying-intent signal
 Draft copy: A bigger shop-vac tank is not automatically the better garage purchase. Start with what you collect, how often you empty it and where it has to fit. Our guide walks through capacity choices and the specs to compare before you buy: https://saturdaygearco.com/guides/what-size-shop-vac-do-you-need
 
 Acceptance: separate preview/QA traffic from production before evaluating the experiment. Record channel, date and exact URL. Do not claim sales from an outbound click. Budget for this draft: $0; no post sent.
+
+## Snippet and link review
+
+Current shop-vac and surface-cleaner titles already match capacity and sizing intent. Preserve them while collecting a larger clean query sample; 18 and 14 impressions cannot establish a CTR defect. Existing capacity/CFM and surface-cleaner/PSI-GPM links passed the audit. No title, description or article-copy change is claimed in this photo PR.
+
+Exact unsent experiment URL: https://saturdaygearco.com/guides/what-size-shop-vac-do-you-need?utm_source=owner_channel&utm_medium=organic_social&utm_campaign=shopvac_capacity_20261011
+
+Replace owner_channel with the approved channel name before sending. Record actual publication date and measure 14 days from that date. Separate QA traffic and compare external landing sessions, engagement and outbound clicks with a clean pre-period. No organic growth has been demonstrated.

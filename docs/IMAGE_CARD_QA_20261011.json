@@ -4,244 +4,314 @@
     "article": "drill-vs-impact-driver",
     "image": "assets/milwaukee-2656-20-owner-side.webp",
     "alt": "Owner photograph of a Milwaukee 2656-20 impact driver",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/milwaukee-2656-20-owner-side.webp",
+    "beforeAlt": ""
   },
   {
     "page": "garage.html",
     "article": "what-size-air-compressor-do-you-need",
     "image": "assets/editorial/what-size-air-compressor-do-you-need.svg",
     "alt": "Industrial air compressor in a workshop",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/workshop-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "garage.html",
     "article": "how-much-generator-do-you-need",
     "image": "assets/editorial/how-much-generator-do-you-need.svg",
     "alt": "Wheeled portable gasoline generator outdoors",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/generator-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "garage.html",
     "article": "what-size-shop-vac-do-you-need",
     "image": "assets/editorial/what-size-shop-vac-do-you-need.svg",
     "alt": "RIDGID wet/dry vacuums on a store display",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/workshop-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "garage.html",
     "article": "shop-vac-cfm-vs-water-lift",
     "image": "assets/editorial/shop-vac-cfm-vs-water-lift.svg",
     "alt": "Craftsman 16-gallon wet/dry shop vacuum",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/workshop-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "garage.html",
     "article": "dual-fuel-generator-gasoline-vs-propane",
     "image": "assets/editorial/dual-fuel-generator-gasoline-vs-propane.svg",
     "alt": "Three propane cylinders against an outdoor wall",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/generator-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "index.html",
     "article": "what-psi-pressure-washer-do-you-need",
     "image": "assets/garage/pressure-640.webp",
     "alt": "Pressure washer placed on a sidewalk",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pressure-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "index.html",
     "article": "how-much-generator-do-you-need",
     "image": "assets/editorial/how-much-generator-do-you-need.svg",
     "alt": "Wheeled portable gasoline generator outdoors",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/generator-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "index.html",
     "article": "best-robotic-pool-cleaners",
     "image": "assets/beatbot-a200-pro-owner-photo.webp",
     "alt": "Owner photograph of the Beatbot A200 Pro pool cleaner",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/beatbot-a200-pro-owner-photo.webp",
+    "beforeAlt": ""
   },
   {
     "page": "index.html",
     "article": "drill-vs-impact-driver",
     "image": "assets/milwaukee-2656-20-owner-side.webp",
     "alt": "Owner photograph of a Milwaukee 2656-20 impact driver",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/milwaukee-2656-20-owner-side.webp",
+    "beforeAlt": ""
   },
   {
     "page": "index.html",
     "article": "how-big-a-cooler-do-you-need",
     "image": "assets/editorial/how-big-a-cooler-do-you-need.svg",
     "alt": "Rubbermaid DuraChill hard cooler beside outdoor seating",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "yard.html",
     "article": "pressure-washer-psi-vs-gpm",
     "image": "assets/editorial/pressure-washer-psi-vs-gpm.svg",
     "alt": "Pressure-washer spray removing paint from a boat",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pressure-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "yard.html",
     "article": "how-high-should-you-mow-your-lawn",
     "image": "assets/garage/yard-640.webp",
     "alt": "Lawn mower standing on grass",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/yard-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "yard.html",
     "article": "what-psi-pressure-washer-do-you-need",
     "image": "assets/garage/pressure-640.webp",
     "alt": "Pressure washer placed on a sidewalk",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pressure-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "yard.html",
     "article": "how-much-generator-do-you-need",
     "image": "assets/editorial/how-much-generator-do-you-need.svg",
     "alt": "Wheeled portable gasoline generator outdoors",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/generator-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "yard.html",
     "article": "pressure-washer-surface-cleaner-sizing",
     "image": "assets/editorial/pressure-washer-surface-cleaner-sizing.svg",
     "alt": "Worker pressure washing paving in Amsterdam",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pressure-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "yard.html",
     "article": "will-my-hose-feed-a-pressure-washer",
     "image": "assets/editorial/will-my-hose-feed-a-pressure-washer.svg",
     "alt": "Car washing equipment and hoses beside a driveway",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pressure-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "yard.html",
     "article": "electric-vs-gas-pressure-washer-driveway",
     "image": "assets/editorial/electric-vs-gas-pressure-washer-driveway.svg",
     "alt": "Honda GX160-powered pressure washer on grass",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pressure-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "yard.html",
     "article": "dual-fuel-generator-gasoline-vs-propane",
     "image": "assets/editorial/dual-fuel-generator-gasoline-vs-propane.svg",
     "alt": "Three propane cylinders against an outdoor wall",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/generator-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "pool.html",
     "article": "pool-day-simple-scoop-owner-experience",
     "image": "assets/garage/pool-640.webp",
     "alt": "Swimming pool in a landscaped yard",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pool-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "pool.html",
     "article": "best-robotic-pool-cleaners",
     "image": "assets/beatbot-a200-pro-owner-photo.webp",
     "alt": "Owner photograph of the Beatbot A200 Pro pool cleaner",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/beatbot-a200-pro-owner-photo.webp",
+    "beforeAlt": ""
   },
   {
     "page": "pool.html",
     "article": "variable-speed-pool-pump-worth-it",
     "image": "assets/editorial/variable-speed-pool-pump-worth-it.svg",
     "alt": "Commercial swimming-pool circulation pump in Bregenz",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pool-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "pool.html",
     "article": "how-big-a-cooler-do-you-need",
     "image": "assets/editorial/how-big-a-cooler-do-you-need.svg",
     "alt": "Rubbermaid DuraChill hard cooler beside outdoor seating",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/pool-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "cooking.html",
     "article": "two-vs-three-burner-gas-grill",
     "image": "assets/editorial/two-vs-three-burner-gas-grill.svg",
     "alt": "Stainless-steel gas grill control panel",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/cooking-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "cooking.html",
     "article": "how-big-a-cooler-do-you-need",
     "image": "assets/editorial/how-big-a-cooler-do-you-need.svg",
     "alt": "Rubbermaid DuraChill hard cooler beside outdoor seating",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/cooking-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "what-can-a-4500-watt-generator-run",
     "image": "assets/editorial/what-can-a-4500-watt-generator-run.svg",
     "alt": "Portable gasoline generators on a retail display",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "how-long-does-ice-last-in-a-cooler",
     "image": "assets/editorial/how-long-does-ice-last-in-a-cooler.svg",
     "alt": "Open cooler containing ice and bottled water",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "how-big-a-cooler-do-you-need",
     "image": "assets/editorial/how-big-a-cooler-do-you-need.svg",
     "alt": "Rubbermaid DuraChill hard cooler beside outdoor seating",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "hard-cooler-vs-soft-cooler",
     "image": "assets/editorial/hard-cooler-vs-soft-cooler.svg",
     "alt": "Large hard-sided cooler with its lid closed",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "portable-power-station-sizing",
     "image": "assets/editorial/portable-power-station-sizing.svg",
     "alt": "Portable power station and folding solar panel outdoors",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "can-a-power-station-run-a-refrigerator-overnight",
     "image": "assets/editorial/can-a-power-station-run-a-refrigerator-overnight.svg",
     "alt": "Portable power station with its power connections visible",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "dual-fuel-generator-gasoline-vs-propane",
     "image": "assets/editorial/dual-fuel-generator-gasoline-vs-propane.svg",
     "alt": "Three propane cylinders against an outdoor wall",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "generator-starting-watts-vs-running-watts",
     "image": "assets/editorial/generator-starting-watts-vs-running-watts.svg",
     "alt": "Side view of a wheeled gasoline generator outdoors",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "can-you-run-a-generator-in-the-rain",
     "image": "assets/editorial/can-you-run-a-generator-in-the-rain.svg",
     "alt": "Raindrops on a wet outdoor surface",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   },
   {
     "page": "weekend.html",
     "article": "grill-vs-griddle-vs-pellet",
     "image": "assets/editorial/grill-vs-griddle-vs-pellet.svg",
     "alt": "Man opening a gas grill in a backyard",
-    "pass": true
+    "pass": true,
+    "beforeImage": "assets/garage/weekend-640.webp",
+    "beforeAlt": ""
   }
 ]
