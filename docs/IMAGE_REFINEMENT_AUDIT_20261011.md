@@ -1,6 +1,6 @@
 # Sitewide image refinement — resumed October 11, 2026
 
-Status: audit complete; two owner-photo article heroes implemented on the review branch. Remaining replacements and mobile/full browser QA are pending. No production merge.
+Status: all 25 article subjects now mapped on the review branch, including 23 remaining hero corrections and 35 matching card images. Two owner-photo improvements preserved. Automated desktop/mobile and accessibility verification passed. No production merge. See IMAGE_MAPPING_20261011.md for the completed mapping.
 
 Base: f548e2daeeab42ed462c8d2ca65ba32a953e006f. All 39 HTML files and shared theme reviewed. Keep approved design, copy, URLs, SEO, affiliate destinations and GA4 unchanged. Use owner or free appropriately licensed photos. Correct exact model for product-specific photos; stock conveys no ownership/testing.
 
@@ -77,3 +77,12 @@ Preservation PASS against baseline: 39 pages, 25 articles, 31 affiliate links, 9
 Remaining: 23 article heroes plus repeated category/home card subjects. Pexels image and Wikimedia API downloads returned HTTP 403 in this environment. Candidate search results are not downloaded, licensed delivery assets. Complete source/license verification and download before replacing them; do not count repeated crops or generated imagery as distinct genuine photos.
 
 Mobile rendering, keyboard/no-JavaScript and automated accessibility checks remain pending. Local Playwright dependency exists but no local Chromium executable was found. Full sitewide deployment acceptance has not been met. The source inventory above records the original baseline, not the final implementation.
+
+
+## Completed continuation verification
+
+Twenty new licensed genuine photographs downloaded through the source websites using the browser, resolving the container HTTP 403 blocker without evading licensing or access controls. Three existing category photographs now serve only the appropriate article subjects; owner photos preserved. All photo derivatives retain source licenses with visible photographer/source/license links. New derivatives are embedded WebP in self-contained SVG files, each below 175 KB, total 1,477,356 bytes. No generative changes.
+
+All 39 pages checked at 390 and 1440 pixels: 78 layouts, zero horizontal overflow, zero local asset/decode failures, zero page JavaScript errors and zero automated WCAG A/AA violations. Keyboard navigation, no-JavaScript navigation and affiliate event/destination checks passed. Preservation against f548e2d: 39 pages, 25 articles, 31 affiliate links and 918 internal links; article content, SEO, schema and GA4 unchanged. Background hero photography is decorative; descriptive card alt text and accessible source credits provide context.
+
+Local Lighthouse against the approved design: homepage mobile performance 99 (baseline 97), desktop 100 (baseline 100); accessibility/best-practices/SEO 100. CLS and total blocking time zero in both current runs. These are lab measurements, not production Core Web Vitals or evidence of organic growth. Mobile LCP 2.18 seconds; desktop 0.70 seconds. Current transfer bytes increased by approximately 128 KB on the homepage. Detailed reports: image-refinement-browser-qa-20261011.json and image-refinement-performance-20261011.json. Automated testing cannot establish exhaustive accessibility compliance.

@@ -91,3 +91,7 @@ footer .disclosure,footer .copyright{color:#b5ad9d;font-size:12px;max-width:900p
 .guide-page main .product-pick__cta,.guide-page main .product-link{background:var(--gold);color:var(--coal)}.info-page main a{color:#725211}.rating-key .label{color:var(--gold)}footer .disclosure{background:transparent}.home-hero .photo-note{background:#171713dd;padding:6px 9px}.guide-card img[src*="beatbot"],.listing-photo[src*="beatbot"]{object-position:center 80%}
 
 .info-page main a{text-decoration:underline;text-underline-offset:3px}.info-page main .button,.info-page main .links a{background:var(--coal);color:var(--cream);text-decoration:none}.photo-credits a{text-decoration:underline}
+
+/* Subject-specific editorial photos, October 11 review branch. */
+.guide-card img[src*="assets/editorial/"],.listing-photo[src*="assets/editorial/"]{object-fit:contain;object-position:center;background:#191918}
+.editorial-photo-credits{font-size:12px;line-height:1.6;max-width:1000px;margin:20px auto;padding:0 24px;color:#5c584e}.editorial-photo-credits summary{cursor:pointer;font-weight:700}.editorial-photo-credits a{color:#725211}

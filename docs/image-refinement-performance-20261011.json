@@ -1,0 +1,93 @@
+{
+  "environment": "Local Lighthouse lab comparison; simulated throttling; analytics network blocked. Production Core Web Vitals remain a post-deployment check.",
+  "reports": [
+    {
+      "version": "baseline",
+      "device": "mobile",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 753.8680999999999,
+        "largest-contentful-paint": 2553.8680999999997,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 753.8680999999999,
+        "total-byte-weight": 540337
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "metricErrors": {},
+      "failedAudits": []
+    },
+    {
+      "version": "refinement",
+      "device": "mobile",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 752.5215000000001,
+        "largest-contentful-paint": 2177.5215,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 752.5215000000001,
+        "total-byte-weight": 667897
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "metricErrors": {},
+      "failedAudits": []
+    },
+    {
+      "version": "baseline",
+      "device": "desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 201.48020000000002,
+        "largest-contentful-paint": 661.4802,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 201.48020000000002,
+        "total-byte-weight": 635742
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "metricErrors": {},
+      "failedAudits": []
+    },
+    {
+      "version": "refinement",
+      "device": "desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 202.2233,
+        "largest-contentful-paint": 702.2233,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 202.2233,
+        "total-byte-weight": 763302
+      },
+      "runtimeError": null,
+      "runWarnings": [],
+      "metricErrors": {},
+      "failedAudits": []
+    }
+  ]
+}
