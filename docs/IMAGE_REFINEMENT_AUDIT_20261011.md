@@ -1,12 +1,12 @@
 # Sitewide image refinement — resumed October 11, 2026
 
-Status: audit complete; replacement implementation and desktop/mobile QA pending. No production changes.
+Status: audit complete; two owner-photo article heroes implemented on the review branch. Remaining replacements and mobile/full browser QA are pending. No production merge.
 
 Base: f548e2daeeab42ed462c8d2ca65ba32a953e006f. All 39 HTML files and shared theme reviewed. Keep approved design, copy, URLs, SEO, affiliate destinations and GA4 unchanged. Use owner or free appropriately licensed photos. Correct exact model for product-specific photos; stock conveys no ownership/testing.
 
 ## Shared hero finding
 
-Shared .hero background in assets/garage-theme.css uses garage/workshop-960.webp. Article-specific heroes currently inherit that generic workshop image. Replace through article-scoped photo mapping; same article's card and hero should use the same subject/photo family.
+Shared .hero background in assets/garage-theme.css uses garage/workshop-960.webp. At the baseline, all 25 article heroes inherited that generic workshop image. Replace through article-scoped photo mapping; same article's card and hero should use the same subject/photo family.
 
 ## Existing non-logo image inventory
 
@@ -59,3 +59,21 @@ Resolve cards to their article targets. Source distinct photos for every duplica
 ## Resumed growth analysis
 
 Live analytics retrieved October 11 15:26 UTC for September 27–October 10: 74 active users, 85 sessions, 231 views; 76 sessions direct, 6 organic-search sessions. Search Console 266 impressions, 1 click, weighted position 57.52; last returned search day October 9. October 8 has 76 views from 2 active users; traffic/testing contamination unresolved. Raw affiliate clicks 1, external attribution unknown. Previous comparison September 13–26 includes prelaunch days and is not a clean growth baseline. Avoid claims that redesign caused gains. Prioritize existing search-visible articles and measured acquisition work after image refinement; gather fuller page/query rows before edits.
+
+
+## Implemented before/after map
+
+| Article | Before | After | Card agreement and source |
+|---|---|---|---|
+| best-robotic-pool-cleaners | Shared workshop-960 hero | Existing beatbot-a200-pro-owner-photo.webp | Home and pool cards already use the same photograph; existing article caption identifies owner media. No external photo or new license claim. |
+| drill-vs-impact-driver | Shared workshop-960 hero | Existing milwaukee-2656-20-owner-side.webp | Home and garage cards already use the same photograph; permission documented in assets/OWNER_MEDIA_LICENSES.md. Depicts owned 2656-20, not recommended 3692-22CT kit. |
+
+Both portraits use auto 100% sizing at the right of the existing hero, avoiding subject-clipping cover crops. Existing gradient, layout and article content remain. No new photo bytes or third-party licenses were introduced.
+
+## Verification and remaining scope
+
+Preservation PASS against baseline: 39 pages, 25 articles, 31 affiliate links, 918 internal links, zero errors. Diff whitespace check passed. Cloudflare preview for code commit 184a1ad succeeded: https://ee1685df.saturdaygearco-site.pages.dev. Both changed heroes were visually inspected at 1363 x 936; no horizontal overflow or failed loaded images. Offscreen lazy images were not counted as failures. These are desktop checks, not a mobile or accessibility matrix pass.
+
+Remaining: 23 article heroes plus repeated category/home card subjects. Pexels image and Wikimedia API downloads returned HTTP 403 in this environment. Candidate search results are not downloaded, licensed delivery assets. Complete source/license verification and download before replacing them; do not count repeated crops or generated imagery as distinct genuine photos.
+
+Mobile rendering, keyboard/no-JavaScript and automated accessibility checks remain pending. Local Playwright dependency exists but no local Chromium executable was found. Full sitewide deployment acceptance has not been met. The source inventory above records the original baseline, not the final implementation.
