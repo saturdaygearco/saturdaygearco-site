@@ -1,0 +1,1 @@
+Research proposals only. Source HTML, affiliate destinations, GA4 configuration, canonical URLs and production remain unchanged. Review exact fields and link instructions in seo-20261013.json before separate implementation/deployment approval. Image changes remain in draft PR #3. Do not deploy this directory as a new feature.
