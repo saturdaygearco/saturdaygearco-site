@@ -39,15 +39,16 @@
     },
     "pressure-washer-surface-cleaner-sizing": {
       "asset": "assets/editorial/pressure-washer-surface-cleaner-sizing.svg",
-      "alt": "Worker pressure washing paving in Amsterdam",
-      "author": "Elekes Andor",
-      "source": "https://commons.wikimedia.org/wiki/File:Pressure_washing.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Worker pressure washing an outdoor walkway",
+      "author": "David McElwee",
+      "source": "https://www.pexels.com/photo/man-cleaning-sidewalk-with-garden-hose-12919779/",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
       "width": 960,
-      "height": 720,
-      "bytes": 140055,
-      "changes": "Resized and WebP compressed; no generative alteration. SVG embeds the optimized photograph. Derivative retains source license."
+      "height": 600,
+      "bytes": 142111,
+      "changes": "Cropped, resized and WebP compressed; no generative changes. Existing hero/card geometry preserved.",
+      "inputSha256": "e5a473cee5fbaa211370a6d13b75eceb4f44cb8f5d7b7342bb02f46dd8e4eefd"
     },
     "what-can-a-4500-watt-generator-run": {
       "asset": "assets/editorial/what-can-a-4500-watt-generator-run.svg",
@@ -219,15 +220,16 @@
     },
     "two-vs-three-burner-gas-grill": {
       "asset": "assets/editorial/two-vs-three-burner-gas-grill.svg",
-      "alt": "Stainless-steel gas grill control panel",
+      "alt": "Gas-grill lid and handle with burner controls excluded",
       "author": "Erik Mclean",
       "source": "https://www.pexels.com/photo/a-close-up-shot-of-a-gas-grill-9203767/",
       "license": "Pexels License",
       "licenseUrl": "https://www.pexels.com/license/",
       "width": 480,
-      "height": 720,
-      "bytes": 20279,
-      "changes": "Resized and WebP compressed; no generative alteration. SVG embeds the optimized photograph. Derivative retains source license."
+      "height": 360,
+      "bytes": 9323,
+      "changes": "Cropped, resized and WebP compressed; no generative changes. Existing hero/card geometry preserved.",
+      "inputSha256": "0091cd14605d7ea59d7e324204bea9fb82e1442102906b1485db66e44894285d"
     },
     "grill-vs-griddle-vs-pellet": {
       "asset": "assets/editorial/grill-vs-griddle-vs-pellet.svg",

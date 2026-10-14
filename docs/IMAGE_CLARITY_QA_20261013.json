@@ -1,0 +1,290 @@
+{
+  "status": "PASS",
+  "pages": 4,
+  "layouts": 8,
+  "prior_qa_not_repeated": true,
+  "external_requests": "Blocked",
+  "rows": [
+    {
+      "route": "guides/pressure-washer-surface-cleaner-sizing",
+      "mode": "desktop",
+      "overflow": false,
+      "heroSources": [
+        "http://127.0.0.1:8765/assets/editorial/pressure-washer-surface-cleaner-sizing.svg"
+      ],
+      "images": [
+        {
+          "src": "../assets/header-logo-v5.svg",
+          "alt": "Saturday Gear Co.",
+          "loaded": true,
+          "inBounds": true
+        }
+      ]
+    },
+    {
+      "route": "guides/two-vs-three-burner-gas-grill",
+      "mode": "desktop",
+      "overflow": false,
+      "heroSources": [
+        "http://127.0.0.1:8765/assets/editorial/two-vs-three-burner-gas-grill.svg"
+      ],
+      "images": [
+        {
+          "src": "../assets/header-logo-v5.svg",
+          "alt": "Saturday Gear Co.",
+          "loaded": true,
+          "inBounds": true
+        }
+      ]
+    },
+    {
+      "route": "yard",
+      "mode": "desktop",
+      "overflow": false,
+      "heroSources": [
+        "http://127.0.0.1:8765/assets/garage/yard-1200.webp"
+      ],
+      "images": [
+        {
+          "src": "assets/header-logo-v5.svg",
+          "alt": "Saturday Gear Co.",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/pressure-washer-psi-vs-gpm.svg",
+          "alt": "Pressure-washer spray removing paint from a boat",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/garage/yard-640.webp",
+          "alt": "Lawn mower standing on grass",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/garage/pressure-640.webp",
+          "alt": "Pressure washer placed on a sidewalk",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/how-much-generator-do-you-need.svg",
+          "alt": "Wheeled portable gasoline generator outdoors",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/pressure-washer-surface-cleaner-sizing.svg",
+          "alt": "Worker pressure washing an outdoor walkway",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/will-my-hose-feed-a-pressure-washer.svg",
+          "alt": "Car washing equipment and hoses beside a driveway",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/electric-vs-gas-pressure-washer-driveway.svg",
+          "alt": "Honda GX160-powered pressure washer on grass",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/dual-fuel-generator-gasoline-vs-propane.svg",
+          "alt": "Three propane cylinders against an outdoor wall",
+          "loaded": true,
+          "inBounds": true
+        }
+      ]
+    },
+    {
+      "route": "cooking",
+      "mode": "desktop",
+      "overflow": false,
+      "heroSources": [
+        "http://127.0.0.1:8765/assets/garage/cooking-1200.webp"
+      ],
+      "images": [
+        {
+          "src": "assets/header-logo-v5.svg",
+          "alt": "Saturday Gear Co.",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/two-vs-three-burner-gas-grill.svg",
+          "alt": "Gas-grill lid and handle with burner controls excluded",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/garage/cooking-640.webp",
+          "alt": "",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/garage/cooking-640.webp",
+          "alt": "",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/how-big-a-cooler-do-you-need.svg",
+          "alt": "Rubbermaid DuraChill hard cooler beside outdoor seating",
+          "loaded": true,
+          "inBounds": true
+        }
+      ]
+    },
+    {
+      "route": "guides/pressure-washer-surface-cleaner-sizing",
+      "mode": "mobile",
+      "overflow": false,
+      "heroSources": [
+        "http://127.0.0.1:8765/assets/editorial/pressure-washer-surface-cleaner-sizing.svg"
+      ],
+      "images": [
+        {
+          "src": "../assets/header-logo-v5.svg",
+          "alt": "Saturday Gear Co.",
+          "loaded": true,
+          "inBounds": true
+        }
+      ]
+    },
+    {
+      "route": "guides/two-vs-three-burner-gas-grill",
+      "mode": "mobile",
+      "overflow": false,
+      "heroSources": [
+        "http://127.0.0.1:8765/assets/editorial/two-vs-three-burner-gas-grill.svg"
+      ],
+      "images": [
+        {
+          "src": "../assets/header-logo-v5.svg",
+          "alt": "Saturday Gear Co.",
+          "loaded": true,
+          "inBounds": true
+        }
+      ]
+    },
+    {
+      "route": "yard",
+      "mode": "mobile",
+      "overflow": false,
+      "heroSources": [
+        "http://127.0.0.1:8765/assets/garage/yard-1200.webp"
+      ],
+      "images": [
+        {
+          "src": "assets/header-logo-v5.svg",
+          "alt": "Saturday Gear Co.",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/pressure-washer-psi-vs-gpm.svg",
+          "alt": "Pressure-washer spray removing paint from a boat",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/garage/yard-640.webp",
+          "alt": "Lawn mower standing on grass",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/garage/pressure-640.webp",
+          "alt": "Pressure washer placed on a sidewalk",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/how-much-generator-do-you-need.svg",
+          "alt": "Wheeled portable gasoline generator outdoors",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/pressure-washer-surface-cleaner-sizing.svg",
+          "alt": "Worker pressure washing an outdoor walkway",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/will-my-hose-feed-a-pressure-washer.svg",
+          "alt": "Car washing equipment and hoses beside a driveway",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/electric-vs-gas-pressure-washer-driveway.svg",
+          "alt": "Honda GX160-powered pressure washer on grass",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/dual-fuel-generator-gasoline-vs-propane.svg",
+          "alt": "Three propane cylinders against an outdoor wall",
+          "loaded": true,
+          "inBounds": true
+        }
+      ]
+    },
+    {
+      "route": "cooking",
+      "mode": "mobile",
+      "overflow": false,
+      "heroSources": [
+        "http://127.0.0.1:8765/assets/garage/cooking-1200.webp"
+      ],
+      "images": [
+        {
+          "src": "assets/header-logo-v5.svg",
+          "alt": "Saturday Gear Co.",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/two-vs-three-burner-gas-grill.svg",
+          "alt": "Gas-grill lid and handle with burner controls excluded",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/garage/cooking-640.webp",
+          "alt": "",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/garage/cooking-640.webp",
+          "alt": "",
+          "loaded": true,
+          "inBounds": true
+        },
+        {
+          "src": "assets/editorial/how-big-a-cooler-do-you-need.svg",
+          "alt": "Rubbermaid DuraChill hard cooler beside outdoor seating",
+          "loaded": true,
+          "inBounds": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "preservation": {
+    "pages": 39,
+    "article_bodies": 25,
+    "affiliate_links": 31,
+    "internal_links": 918,
+    "status": "PASS",
+    "baseline": "f548e2daeeab42ed462c8d2ca65ba32a953e006f"
+  }
+}
