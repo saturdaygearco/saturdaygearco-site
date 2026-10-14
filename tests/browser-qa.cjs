@@ -20,13 +20,14 @@ const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.isDirector
  // Suppress real GA4 collection and external affiliate traffic during verification.
  await page.route('**/*',route=>new URL(route.request().url()).origin===origin?route.continue():route.fulfill({body:''}));
  const axe=fs.readFileSync(require.resolve('axe-core/axe.min.js'),'utf8');
- const report={pages:0,layouts:0,overflow:[],accessibility:[],consoleErrors:[],failedAssets:[],analytics:null,keyboard:false,noJavaScript:false};
+ const report={pages:0,layouts:0,overflow:[],accessibility:[],consoleErrors:[],failedAssets:[],failedImageDecode:[],analytics:null,keyboard:false,noJavaScript:false};
  page.on('pageerror',e=>report.consoleErrors.push(e.message));page.on('response',r=>{if(r.status()>=400&&r.url().startsWith(origin))report.failedAssets.push(r.url())});
- const shotdir=path.join(root,'docs/screenshots');fs.mkdirSync(shotdir,{recursive:true});
+ const shotdir=path.join(root,'docs/image-refinement-screenshots');fs.mkdirSync(shotdir,{recursive:true});
  for(const file of walk(root)){
   const relative=path.relative(root,file).replaceAll(path.sep,'/');const url=relative==='index.html'?'/':'/'+relative.replace(/\.html$/,'');report.pages++;
   for(const width of [390,1440]){
    await page.setViewportSize({width,height:900});await page.goto(origin+url);await page.evaluate(()=>document.fonts.ready);
+   const badImages=await page.evaluate(async()=>{for(const img of document.images)img.loading='eager';return (await Promise.all([...document.images].map(async img=>{try{await img.decode();return img.naturalWidth?null:img.src}catch{return img.src}}))).filter(Boolean)});if(badImages.length)report.failedImageDecode.push({url,width,images:badImages});
    const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);report.layouts++;
    if(overflow)report.overflow.push({url,width});
    await page.evaluate(axe);const scan=await page.evaluate(()=>axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}}));
@@ -43,8 +44,8 @@ const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.isDirector
  await page.locator('a[href*="amazon.com"]').first().evaluate(a=>{a.addEventListener('click',e=>e.preventDefault());a.click()});
  const event=await page.evaluate(()=>Array.from(window.dataLayer).map(v=>Array.from(v)).find(v=>v[0]==='event'&&v[1]==='affiliate_click'));
  assert(event,'affiliate_click was not recorded');assert.equal(event[2].destination_url,destination);assert.equal(event[2].page_path,'/guides/drill-vs-impact-driver');for(const key of ['product_name','link_placement','destination_url','link_domain'])assert(event[2][key]);report.analytics={event:event[1],fields:Object.keys(event[2]),destinationPreserved:true};
- const fallback=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});const nojs=await fallback.newPage();await nojs.route('**/*',r=>new URL(r.request().url()).origin===origin?r.continue():r.fulfill({body:''}));await nojs.goto(origin+'/');assert.equal(await nojs.locator('.site-nav a:visible').count(),6);report.noJavaScript=true;// Some single-process development Chromium builds close the browser with the second context.
+ await browser.close();const fallbackBrowser=await chromium.launch({headless:true,executablePath:process.env.CHROME_PATH,args:['--no-sandbox','--disable-gpu','--disable-software-rasterizer','--no-zygote','--single-process']});const fallback=await fallbackBrowser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});const nojs=await fallback.newPage();await nojs.route('**/*',r=>new URL(r.request().url()).origin===origin?r.continue():r.fulfill({body:''}));await nojs.goto(origin+'/');assert.equal(await nojs.locator('.site-nav a:visible').count(),6);report.noJavaScript=true;// Some single-process development Chromium builds close the browser with the second context.
 
- fs.writeFileSync(path.join(root,'docs/browser-qa.json'),JSON.stringify(report,null,2));await browser.close();server.close();
- assert.deepEqual(report.overflow,[],'Horizontal overflow');assert.deepEqual(report.failedAssets,[],'Failed local assets');assert.deepEqual(report.consoleErrors,[],'JavaScript errors');assert.deepEqual(report.accessibility,[],'Accessibility violations');console.log('PASS',report.pages,'pages,',report.layouts,'layouts, keyboard, fallback, affiliate event');
+ fs.writeFileSync(path.join(root,'docs/image-refinement-browser-qa-20261011.json'),JSON.stringify(report,null,2));await fallbackBrowser.close();server.close();
+ assert.deepEqual(report.failedImageDecode,[],'Image decoding');assert.deepEqual(report.overflow,[],'Horizontal overflow');assert.deepEqual(report.failedAssets,[],'Failed local assets');assert.deepEqual(report.consoleErrors,[],'JavaScript errors');assert.deepEqual(report.accessibility,[],'Accessibility violations');console.log('PASS',report.pages,'pages,',report.layouts,'layouts, keyboard, fallback, affiliate event');
 })().catch(e=>{console.error(e);server.close();process.exit(1)});
