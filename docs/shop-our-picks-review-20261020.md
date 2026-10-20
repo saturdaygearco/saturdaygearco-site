@@ -1,8 +1,10 @@
-# Shop Our Picks — nonproduction review
-Base: ac749fde3e1941f209910b4088ab39e5ca4a7e3b
-Six existing editorial recommendation blocks, original affiliate URLs and ownership/research labels; navigation added to all 39 HTML pages. Pool category links to editorial guide without inventing a new recommendation.
+# Shop Our Picks — nonproduction release review
+Production/base: ac749fde3e1941f209910b4088ab39e5ca4a7e3b.
+Seven existing product recommendations: Milwaukee 3692-22CT; DEWALT DXPW3300-S; Westinghouse16.5-inch surface cleaner; Blackstone2439; YETI Tundra45; Westinghouse WGen9500DF; Beatbot A200 Pro.
+Reuse original merchant destinations, ownership/research labels and supporting guide links. The Beatbot card reuses the actual owner-unit photograph already in the approved pool guide; no images were rebuilt. No new prices, firsthand claims or performance results were invented.
+Primary navigation added to all39 existing HTML pages. All existing article content, affiliate URLs, image references, SEO and analytics remain byte-preserved apart from the navigation insertion.
 
-Verified source assertions:
+Source validation:
 - 404.html: only navigation insertion; affiliate URLs, articles, SEO, analytics and images byte-preserved
 - about.html: only navigation insertion; affiliate URLs, articles, SEO, analytics and images byte-preserved
 - affiliate-disclosure.html: only navigation insertion; affiliate URLs, articles, SEO, analytics and images byte-preserved
@@ -48,6 +50,16 @@ Verified source assertions:
 - Blackstone 2439 Original 36-inch Omnivore with Airfryer Combo: original affiliate destination, ownership/research text retained
 - YETI Tundra 45: original affiliate destination, ownership/research text retained
 - Westinghouse WGen9500DF dual-fuel generator: original affiliate destination, ownership/research text retained
+- Pool card: original Beatbot affiliate destination, owner experience, photo credit and existing owner asset preserved; relative image path adjusted for root page.
+- Every retailer destination on the new page exists in original approved guide source.
+- Every referenced asset already exists in the source tree except the new page-only stylesheet.
 
-Not run: browser desktop/mobile QA, build, deployed link checks. Execution environment unavailable. No production deployment or affiliate click generated. Existing analytics source unchanged. New page uses existing click listener and shop_our_picks placement. No claims of increased revenue.
-Production release requires completed QA and separate owner approval. No sitemap update included; existing sitemap preserved.
+Browser validation:
+The earlier six-card candidate cbb98d780c480491c1cd399ddf5b7bd29b69e6a6 passed all80 Chromium checks across40 pages, desktop1440/mobile390:
+https://github.com/saturdaygearco/saturdaygearco-site/actions/runs/39490830646
+A new run is required for this seven-card revision; consult PR5 for the exact final candidate and verified run.
+All test browser network requests outside localhost are blocked, so no production traffic, GA4 events or affiliate clicks are generated. No visual screenshots/artifacts uploaded or paid services used. Public repository, standard ubuntu-latest runner, no cache/artifact storage or private runner use.
+Static HTML has no application build command. Full desktop/mobile rendering, menu visibility, viewport fit and retailer-card checks are provided in tests/shop-picks-browser-review.mjs.
+
+Production deployment is not authorized. Exact source-specific owner release approval plus unchanged production/base preflight required.
+Existing sitemap is preserved; navigation provides normal discovery of the new page. No image deployment, SEO rewrite or unrelated content work was repeated.

@@ -26,8 +26,8 @@ try{
  await page.close();
  }
  const page=await browser.newPage();await page.route('**/*',r=>r.request().url().startsWith(origin+'/')?r.continue():r.abort());await page.goto(origin+'/shop-our-picks');
- assert.equal(await page.locator('.product-pick').count(),6);
- assert.equal(await page.locator('.product-pick__cta').count(),6);
+ assert.equal(await page.locator('.product-pick').count(),7);
+ assert.equal(await page.locator('.product-pick__cta').count(),7);
  for(const a of await page.locator('.product-pick__cta').all()){assert.match(await a.getAttribute('href'),/^https:\/\/www.amazon.com\//);assert.equal(await a.getAttribute('data-placement'),'shop_our_picks');assert.match(await a.getAttribute('rel'),/sponsored/)}
- console.log('PASS',checks,'desktop/mobile page checks; 6 original affiliate cards; analytics and external requests blocked. No production traffic or affiliate clicks.');
+ console.log('PASS',checks,'desktop/mobile page checks; 7 original affiliate cards; analytics and external requests blocked. No production traffic or affiliate clicks.');
 }finally{await browser.close();await new Promise(r=>server.close(r))}
