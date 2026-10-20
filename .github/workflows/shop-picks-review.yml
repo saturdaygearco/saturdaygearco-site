@@ -1,0 +1,22 @@
+name: Shop Picks isolated review QA
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: read
+jobs:
+  local-browser-review:
+    if: github.repository == 'saturdaygearco/saturdaygearco-site' && github.event.pull_request.number == 5
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - name: Install isolated browser test dependency
+        run: npm install --no-save --ignore-scripts --package-lock=false playwright@1.64.1
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Check all changed navigation and Shop Our Picks locally
+        run: node tests/shop-picks-browser-review.mjs

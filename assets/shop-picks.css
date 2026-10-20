@@ -1,0 +1,2 @@
+.picks-main{max-width:1200px;margin:auto;padding:clamp(20px,4vw,56px)}.picks-main>h1{font-size:clamp(2.5rem,6vw,4.5rem)}.picks-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:28px}.picks-entry{min-width:0}.picks-entry .product-pick{height:auto}.picks-entry a{overflow-wrap:anywhere}.picks-main p{max-width:75ch}.site-nav{flex-wrap:wrap}
+.picks-entry img{max-width:100%;height:auto}
